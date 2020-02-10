@@ -17,9 +17,13 @@ remaining = AudioSegment.from_mp3("res/remaining.mp3")
 
 billder = intro
 
+print("Concatenating Bills.")
+
 for i in range(repeat):
+    print("Bill!")
     billder = billder + bill
 
 billder = billder + remaining
 
+print("Writing output file.")
 billder.export(outputPath, format = "mp3")

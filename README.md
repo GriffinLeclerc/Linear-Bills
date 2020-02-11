@@ -7,6 +7,11 @@ pip3 <br />
 pydub, installed through pip3 <br />
 ffmpeg <br />
 
+## Usage
+```
+./linearBills
+```
+
 ## FAQ
 
 ### "Why is the seqence repeated 4 Bills instead of one?"

@@ -9,8 +9,10 @@ ffmpeg <br />
 
 ## Usage
 ```
-./linearBills
+./linearBills repeat
 ```
+Where: <br />
+**repeat** is the number of time the "Bill!" sequence is repeated.
 
 ## FAQ
 
